@@ -8,9 +8,7 @@ p {
     margin: 3px 10px;
 
 }
-/* p:hover{
-    color: green;
-} */
+
 li{
     list-style: none;
 }
@@ -21,6 +19,17 @@ h3{
     display: flex;
     justify-content: center;
 }
+.link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.link:hover {
+    fill: green;
+    color: green;;
+}
+
 .btn{
     position: absolute;
     right: 0;
@@ -56,9 +65,6 @@ img{
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    
-    
-    
 }
 .contact__title {
     
@@ -83,10 +89,6 @@ img{
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    align-items: center;
-    
-    
-    
 }
 .education__text {
     margin-left: 50px;
