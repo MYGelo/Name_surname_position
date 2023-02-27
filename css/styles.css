@@ -1,0 +1,66 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+h3{
+    background-color: #6284ce;
+    color:  white;
+}
+.thumb {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    
+    
+}
+.developer{
+    margin-left: 50px;
+}
+.projects__container {
+    margin-left: 50px;
+    padding: 0;
+    
+    
+    
+}
+.education__text {
+    margin-left: 50px;
+}
+.hero {
+    width: 220px;
+    background-color:#d4d4d4;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+
+}
+.container{
+    margin-top: 70px;
+    
+}
+.style {
+    display: flex;
+    
+}
+
+.developer__contact{
+    background-color: blanchedalmond;
+    width: 100%;
+   
+}
+
+.contact__container {
+    padding: 0px 10px 0px 10px;
+}
+.skills__text {
+    padding: 0px 10px 0px 10px;
+}
