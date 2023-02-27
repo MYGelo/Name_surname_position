@@ -74,7 +74,7 @@ img{
     min-height: 255px;
 }
 .projects__container {
-    font-family: Manrope;
+    
     font-size: 28px;
     font-weight: 700;
     line-height: 44px;
@@ -83,7 +83,7 @@ img{
 
 
     padding: 0;
-    height: 167px;
+    height: 148px;
 
     display: flex;
     flex-wrap: wrap;
