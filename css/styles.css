@@ -1,18 +1,55 @@
 body{
-    margin: 10px;
+    margin: auto;
     padding: 10px;
+    display: flex;
+   justify-content: center;
 }
+p {
+    margin: 3px 10px;
+
+}
+/* p:hover{
+    color: green;
+} */
 li{
     list-style: none;
 }
 h3{
     background-color: #6284ce;
     color:  white;
+
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+.svg {
+    height: 35px;
+    width: 35px;
+    
+}
+.svg:hover {
+    fill: green;
+}
+.svg__tel {
+    fill: white;
+    background-color: black;
+    
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
 }
 .thumb {
     height: 200px;
     width: 200px;
     padding: 10px;
+}
+.contact__link {
+    list-style: none;
+    margin: 3px;
 }
 img{
     height: 100%;
@@ -23,12 +60,30 @@ img{
     
     
 }
+.contact__title {
+    
+}
 .developer{
     margin-left: 50px;
+    min-height: 255px;
 }
 .projects__container {
-    margin-left: 50px;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+   
+
+
     padding: 0;
+    height: 167px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     
     
     
@@ -45,6 +100,7 @@ img{
 }
 .container{
     margin-top: 70px;
+    width: 400px;
     
 }
 .style {
@@ -60,7 +116,6 @@ img{
 
 .contact__container {
     padding: 0px 10px 0px 10px;
-}
-.skills__text {
-    padding: 0px 10px 0px 10px;
+    display: flex;
+
 }

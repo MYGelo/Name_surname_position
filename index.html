@@ -9,7 +9,18 @@
 </head>
 <body>
     <header></header>
+    
     <main class="style">
+        <div class="btn">
+            <label>
+                <input class="UA" type="radio" name="LANGUAGES" value="UA" checked />
+                UA
+              </label>
+              <label>
+                <input class="ENG" type="radio" name="LANGUAGES" value="ENG" checked />
+                ENG
+              </label>
+        </div>
         <hero class="hero">
             <div class="thumb">
                 <img src="./images/IMG_1322.jpg" alt="Miholap Oleg">
@@ -19,17 +30,32 @@
 
                 <h3 class="contact__title">Contact Me</h3>
                 <ul class="contact__container" >
-                    <li class="contact__link"> <a href="tel:+380983097226"> +38 098 309 72 26</a></li>
+                    <li class="contact__link"> <a href="tel:+380983097226"> 
+                        <svg class="svg svg__tel">
+                            <use href="./images/sprite.svg#icon-tel"></use>
+                         </svg></a></li>
                     <li class="contact__link">
-                        <a href="">mail</a>
+                        <a href=""><svg class="svg">
+                            <use href="./images/sprite.svg#icon-mail"></use>
+                         </svg></a>
                     </li>
-                    <li class="contact__link">LinkedIn</li>
+                    <li class="contact__link"><svg class="svg">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                     </svg></li>
                     <li class="contact__link">
                         <a href="https://github.com/MYGelo"
-                        target="_blank">GitHub</a>
+                        target="_blank">
+                         <svg class="svg">
+                            <use href="./images/sprite.svg#icon-github"></use>
+                         </svg>
+                        </a>
                     </li>
                     <li class="contact__link">
-                        <a href="https://t.me/aa_Oleg_m" target="_blank" rel="noopener noreferrer"></a>
+                        <a href="https://t.me/aa_Oleg_m" target="_blank">
+                            <svg class="svg">
+                                <use href="./images/sprite.svg#icon-telegram"></use>
+                             </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -47,8 +73,8 @@
                 </div>
             </div>
             <div>
-                <h3>Soft Skills</h3>
-                    <div class="skills__text">
+                    <h3 class="soft__title">Soft Skills</h3>
+                    <div class="softSkills__text">
                     <p>Team Work</p>
                     <p>Problem Solving</p>
                     <p>Strong Adaptation Skills</p>
@@ -56,42 +82,38 @@
                     <p>Communicative</p>
                     </div>
             </div>
-            <div class="skills__text">
+            <div class="lang__container">
+                <h3>LANGUAGES</h3>
                 <p>English - advanced</p>
                 <p>Ukrainian - native</p>
             </div>
         </hero>
         <section class="container">
            <div class="developer">
-            <h1 class="developer__name">Miholap Oleg</h1>
-            <h2 class="developer__title">Junior Frontend Developer</h2>
-            <p class="developer_text">I am a Junior Front End developer. I focus on
-                HTML5, CSS3, JS, React, English. Development,
-                practice and work for the result are important for
-                me. I am skillful in analyzing problems and
-                thinking of solutions to accurately troubleshoot
-                and solve technical problems.</p>
+            <h1> Miholap Oleg</h1>
+            <h2>Junior  Developer</h2>
+            <p>I am a Junior  developer. I focus on HTML5, CSS3, JS, React, English. Development,practice and work for the result are important for me. I am skillful in analyzing problems and thinking of solutions to accurately troubleshoot and solve technical problems.</p>
                 
            </div>
            <div class="projects">
-            <h3>Project Experience</h3>
+            <h3 class="projects__title">Project Experience</h3>
                 <ul class="projects__container">
                     <li class="projects__link">
                         <a href="https://mygelo.github.io/Bose/
                         " target="_blank">headphones Bose
                     </a>
                     </li>
-                    <li class="projects__link"><a href="https://mygelo.github.io/news-app/" target="_blank">News-app</a></li>
+                    <!-- <li class="projects__link"><a href="https://mygelo.github.io/news-app/" target="_blank">News-app</a></li> -->
                     <li class="projects__link">
                         <a href="https://teiatan.github.io/News-App/" target="_blank"> News-App</a>
                     </li>
-                    <li class="projects__link">work</li>
-                    <li class="projects__link">work</li>
+                    
                 </ul>
             </div>
             <div class="education">
                 <h3  class="education_title">Education</h3>
-                <p  class="education__text"> 2022-2023
+                <p  class="education__text"> 
+                    2022-2023
                     <br> IT School GoIT
                     <br> Fullstack Developer
                 </p>
@@ -103,5 +125,7 @@
     <footer>
         <h3></h3>
     </footer>
+    <script src="./js/langue.js"  type="module" defer></script>
+    <!-- <script src="./js/switch.js"></script> -->
 </body>
 </html>
